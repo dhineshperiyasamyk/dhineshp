@@ -1,7 +1,5 @@
-c=int(input())
+num,exp_val=list(map(int,input().split()))
 
-d_power=int(input())
+r=num**exp_val
 
-e_value=c**d_power
-
-print (e_value)
+print(r)
