@@ -1,11 +1,11 @@
-n=int(input())
+r=int(input())
 
-c=1
+p=[]
 
-while (c<6):
+for i in range(1,6):
 
-	b=n*c
+  result=i*r
 
-	print (b,"")
+  p.append(result)
 
-	c=c+1
+print(*p)
